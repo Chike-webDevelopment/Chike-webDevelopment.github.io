@@ -1,0 +1,49 @@
+/*mobile first approach*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+/*header designs*/
+header{
+    background-color: rgb(0, 0, 143);
+    color: white;
+    padding: 20px 0;
+    font-size: 1.3rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-mira-image{
+    display: flex;
+}
+.header-mira-image img{
+    margin-right: 1.1rem;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+}
+.header-nav a:hover{
+    color: blue;
+    background: white;
+    padding: .5rem;
+    transition: 0.1sec 
+}
+/*finished header designs*/
+/*main design*/
+main{
+    text-align: center;
+    background: rgb(225, 198, 250);
+}
+/*main desgin finished*/
